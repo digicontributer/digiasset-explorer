@@ -1,7 +1,7 @@
 {
   "name": "insight-lite-ui",
   "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the litecoin network and build your own services with it.",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "repository": "git://github.com/litecoin-project/insight-lite-ui.git",
   "contributors": [
     {
