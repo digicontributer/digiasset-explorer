@@ -1,10 +1,10 @@
 # Insight UI
 
-A DigiByte blockchain explorer web application service for [Litecore Node](https://github.com/digibyte-project/digibyte-node) using the [Insight API](https://github.com/digibyte-project/insight-digibyte-api).
+A DigiByte blockchain explorer web application service for [Litecore Node](https://github.com/digibyte/digibyte-node) using the [Insight API](https://github.com/digibyte/insight-digibyte-api).
 
 ## Quick Start
 
-Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [Litecore](https://github.com/digibyte-project/litecore).
+Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [Litecore](https://github.com/digibyte/digibyte-lib).
 
 ## Getting Started
 
@@ -70,11 +70,11 @@ compile***.
 
 ## Note
 
-For more details about the [Insight API](https://github.com/digibyte-project/insight-digibyte-api) configuration and end-points, go to [Insight API GitHub repository](https://github.com/digibyte-project/insight-digibyte-api).
+For more details about the [Insight API](https://github.com/digibyte/insight-digibyte-api) configuration and end-points, go to [Insight API GitHub repository](https://github.com/digibyte/insight-digibyte-api).
 
 ## Contribute
 
-Contributions and suggestions are welcomed at the [Insight UI GitHub repository](https://github.com/digibyte-project/insight-digibyte-ui).
+Contributions and suggestions are welcomed at the [Insight UI GitHub repository](https://github.com/digibyte/insight-digibyte-ui).
 
 
 ## License

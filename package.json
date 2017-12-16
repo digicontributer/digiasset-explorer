@@ -1,7 +1,7 @@
 {
   "name": "insight-digibyte-ui",
   "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the digibyte network and build your own services with it.",
-  "version": "0.4.6",
+  "version": "0.4.7",
   "repository": "git://github.com/digibyte/insight-digibyte-ui.git",
   "contributors": [
     {
