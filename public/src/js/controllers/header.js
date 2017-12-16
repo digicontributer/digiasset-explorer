@@ -6,7 +6,8 @@ angular.module('insight.system').controller('HeaderController',
 
     $rootScope.currency = {
       factor: 1,
-      bitstamp: 0,
+      usdRate: 0,
+      btcRate: 0,
       symbol: 'DGB'
     };
 
