@@ -1,6 +1,6 @@
 # Insight UI
 
-A DigiByte blockchain explorer web application service for [Litecore Node](https://github.com/digibyte-project/digibyte-node) using the [Insight API](https://github.com/digibyte-project/insight-lite-api).
+A DigiByte blockchain explorer web application service for [Litecore Node](https://github.com/digibyte-project/digibyte-node) using the [Insight API](https://github.com/digibyte-project/insight-digibyte-api).
 
 ## Quick Start
 
@@ -14,7 +14,7 @@ To manually install all of the necessary components, you can run these commands:
 npm install -g digibyte-node
 digibyte-node create mynode
 cd mynode
-digibyte-node install insight-lite-api
+digibyte-node install insight-digibyte-api
 digibyte-node install insight-digibyte-ui
 digibyte-node start
 ```
@@ -70,7 +70,7 @@ compile***.
 
 ## Note
 
-For more details about the [Insight API](https://github.com/digibyte-project/insight-lite-api) configuration and end-points, go to [Insight API GitHub repository](https://github.com/digibyte-project/insight-lite-api).
+For more details about the [Insight API](https://github.com/digibyte-project/insight-digibyte-api) configuration and end-points, go to [Insight API GitHub repository](https://github.com/digibyte-project/insight-digibyte-api).
 
 ## Contribute
 
