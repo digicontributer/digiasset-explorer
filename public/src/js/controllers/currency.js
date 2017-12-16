@@ -18,8 +18,10 @@ angular.module('insight.currency').controller('CurrencyController',
 
         var response;
 
-        if (this.symbol === 'USD' || this.symbol === 'BTC') {
+        if (this.symbol === 'USD') {
           response = _roundFloat((value * this.factor), 2);
+        } else if (this.symbol === 'BTC') {
+          response = _roundFloat((value * this.factor), 8);
         } else {
           this.factor = 1;
           response = value;
