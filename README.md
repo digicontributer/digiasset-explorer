@@ -1,6 +1,6 @@
 # Insight UI
 
-A DigiByte blockchain explorer web application service for [Litecore Node](https://github.com/digibyte/digibyte-node) using the [Insight API](https://github.com/digibyte/insight-digibyte-api).
+A DigiByte blockchain explorer web application service for [DigiByte Node](https://github.com/digibyte/digibyte-node) using the [Insight API](https://github.com/digibyte/insight-digibyte-api).
 
 ## Quick Start
 
