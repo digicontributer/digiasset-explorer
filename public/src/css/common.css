@@ -519,7 +519,7 @@ margin-left: 0;
 .badge-inverse:hover { background-color: #1a1a1a; }
 
 .status .t {
-  color: white;
+  color: #06c;
 }
 
 .status .text-danger { background: red; }
