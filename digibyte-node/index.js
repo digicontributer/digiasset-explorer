@@ -18,7 +18,7 @@ var InsightUI = function(options) {
   }
 };
 
-InsightUI.dependencies = ['insight-digibyte-api'];
+InsightUI.dependencies = ['insight-digibyte-api', 'digiasset-explorer-api'];
 
 inherits(InsightUI, BaseService);
 
