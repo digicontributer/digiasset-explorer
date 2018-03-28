@@ -1,42 +1,18 @@
 {
-  "name": "insight-digibyte-ui",
+  "name": "digiasset-explorer",
   "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the digibyte network and build your own services with it.",
-  "version": "0.4.7",
-  "repository": "git://github.com/digibyte/insight-digibyte-ui.git",
+  "version": "0.1.0",
+  "repository": "git://github.com/digicontributer/digiasset-explorer.git",
   "contributors": [
     {
-      "name": "Matias Alejo Garcia",
-      "email": "ematiu@gmail.com"
-    },
-    {
-      "name": "Manuel Araoz",
-      "email": "manuelaraoz@gmail.com"
-    },
-    {
-      "name": "Mario Colque",
-      "email": "colquemario@gmail.com"
-    },
-    {
-      "name": "Gustavo Cortez",
-      "email": "cmgustavo83@gmail.com"
-    },
-    {
-      "name": "Juan Ignacio Sosa Lopez",
-      "email": "bechilandia@gmail.com"
+      "name": "Gary Mckee",
+      "email": "esot@digibyte.io"
     }
   ],
   "bugs": {
-    "url": "https://github.com/bitpay/insight-ui/issues"
+    "url": "https://github.com/bigicontributer/digiasset-explorer/issues"
   },
-  "homepage": "https://github.com/digibyte/insight-digibyte-ui",
   "license": "MIT",
-  "keywords": [
-    "insight",
-    "blockchain",
-    "blockexplorer",
-    "digibyte",
-    "front-end"
-  ],
   "bitcoreNode": "digibyte-node",
   "dependencies": {},
   "devDependencies": {

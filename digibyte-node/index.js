@@ -4,7 +4,7 @@ var BaseService = require('./service');
 var inherits = require('util').inherits;
 var fs = require('fs');
 
-var InsightUI = function(options) {
+var DigiAssetExplorer = function(options) {
   BaseService.call(this, options);
   if (typeof options.apiPrefix !== 'undefined') {
     this.apiPrefix = options.apiPrefix;
@@ -14,24 +14,24 @@ var InsightUI = function(options) {
   if (typeof options.routePrefix !== 'undefined') {
     this.routePrefix = options.routePrefix;
   } else {
-    this.routePrefix = 'insight';
+    this.routePrefix = 'digiasset';
   }
 };
 
-InsightUI.dependencies = ['insight-digibyte-api', 'digiasset-explorer-api'];
+DigiAssetExplorer.dependencies = ['insight-digibyte-api', 'digiasset-explorer-api'];
 
-inherits(InsightUI, BaseService);
+inherits(DigiAssetExplorer, BaseService);
 
-InsightUI.prototype.start = function(callback) {
+DigiAssetExplorer.prototype.start = function(callback) {
   this.indexFile = this.filterIndexHTML(fs.readFileSync(__dirname + '/../public/index.html', {encoding: 'utf8'}));
   setImmediate(callback);
 };
 
-InsightUI.prototype.getRoutePrefix = function() {
+DigiAssetExplorer.prototype.getRoutePrefix = function() {
   return this.routePrefix;
 };
 
-InsightUI.prototype.setupRoutes = function(app, express) {
+DigiAssetExplorer.prototype.setupRoutes = function(app, express) {
   var self = this;
 
   app.use('/', function(req, res, next){
@@ -46,7 +46,7 @@ InsightUI.prototype.setupRoutes = function(app, express) {
   });
 };
 
-InsightUI.prototype.filterIndexHTML = function(data) {
+DigiAssetExplorer.prototype.filterIndexHTML = function(data) {
   var transformed = data
     .replace(/apiPrefix = '\/api'/, "apiPrefix = '/" + this.apiPrefix + "'");
 
@@ -57,4 +57,4 @@ InsightUI.prototype.filterIndexHTML = function(data) {
   return transformed;
 };
 
-module.exports = InsightUI;
+module.exports = DigiAssetExplorer;
